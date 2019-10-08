@@ -115,4 +115,10 @@ Or, if you don't want/need a background service you can just run:
 
 ![3.png](https://github.com/zenny-chen/Mac-and-macOS-Development-Relevant-Resource-Collection/blob/master/3.png)
 
-然后，我们滑动左侧栏，找到“**开发者工具**”，随后点击左下角的锁状🔒按钮以允许
+然后，我们滑动左侧栏，找到“**开发者工具**”，随后点击左下角的锁状🔒按钮以允许编辑该选项。最后，我们勾选上中间栏的“**终端**”即大功告成，如下图所示。
+
+![4.png](https://github.com/zenny-chen/Mac-and-macOS-Development-Relevant-Resource-Collection/blob/master/4.png)
+
+设置完之后，如果此时您开着控制台应用，则系统会默认将它重启，重启完之后，设置就生效了。
+
+
