@@ -111,5 +111,8 @@ Or, if you don't want/need a background service you can just run:
 
 在macOS Catanlina下，由于系统对应用的安全性做了更严格的限制，因此对于非Mac App Store上下载的应用默认是无法打开的，除非有专门的签名，然后让用户授权允许打开。这么一来，对于很多编译用的第三方控制台应用就犯难了。不过Apple也是考虑到了这一点，因此我们可以从偏好设置中的安全性选项里把我们信任的应用开启允许不满足安全性策略。下面来教大家详细设置方式。
 
+首先，我们打开“**系统偏好设置**”，然后点击“**安全性与隐私**”，如下图所示。
 
+![3.png](https://github.com/zenny-chen/Mac-and-macOS-Development-Relevant-Resource-Collection/blob/master/3.png)
 
+然后，我们滑动左侧栏，找到“**开发者工具**”，随后点击左下角的锁状🔒按钮以允许
