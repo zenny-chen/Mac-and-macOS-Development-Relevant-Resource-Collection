@@ -105,3 +105,11 @@ Or, if you don't want/need a background service you can just run:
 1. Xcode中关闭当前编辑的文件：control+command+w
 1. 模拟器中模拟点击Home键：cmd+shift+H
 
+<br />
+
+## macOS 10.15 Catalina下允许使用控制台应用
+
+在macOS Catanlina下，由于系统对应用的安全性做了更严格的限制，因此对于非Mac App Store上下载的应用默认是无法打开的，除非有专门的签名，然后让用户授权允许打开。这么一来，对于很多编译用的第三方控制台应用就犯难了。不过Apple也是考虑到了这一点，因此我们可以从偏好设置中的安全性选项里把我们信任的应用开启允许不满足安全性策略。下面来教大家详细设置方式。
+
+
+
