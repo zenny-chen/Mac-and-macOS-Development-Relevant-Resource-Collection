@@ -16,7 +16,7 @@ Mac与macOS开发相关技术文集
 1.  [macOS 开发：NSScrollView 学习笔记](https://segmentfault.com/a/1190000012069895)
 1. [macOS中如何获取当前运行程序的路径](https://www.cnblogs.com/zenny-chen/p/3290653.html)
 1. [在macOS上安装Homebrew](https://brew.sh)（用brew更新软件包：`brew upgrade <package>`）
-1. Xcode 10之后可以在Apple开发者官网下载独立的OpenGL性能剖析等工具：https://developer.apple.com/download/more/?=for%20Xcode
+1. 在macOS上安装命令行编译工具的简单命令：`xcode-select --install`
 1. [MLClassifier increase maxIterations in CreateML](https://forums.developer.apple.com/thread/104668)
 
 <br />
