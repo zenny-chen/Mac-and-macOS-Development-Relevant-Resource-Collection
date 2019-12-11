@@ -18,6 +18,7 @@ Mac与macOS开发相关技术文集
 1. [在macOS上安装Homebrew](https://brew.sh)（用brew更新软件包：`brew upgrade <package>`）
 1. 在macOS上安装命令行编译工具的简单命令：`xcode-select --install`
 1. [MLClassifier increase maxIterations in CreateML](https://forums.developer.apple.com/thread/104668)
+1. [Xcode内存泄漏问题调试解决](https://my.oschina.net/u/2483082/blog/755130)
 
 <br />
 
