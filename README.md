@@ -124,4 +124,20 @@ Or, if you don't want/need a background service you can just run:
 
 设置完之后，如果此时您开着控制台应用，则系统会默认将它重启，重启完之后，设置就生效了。
 
+<br />
+
+## macOS下删除Unity3D（其他App也可参考）
+
+/Applications/Unity
+~/Library/Unity
+~/Library/Application Support/Unity
+/Library/Application Support/Unity (License file is here...prolly best to leave it alone, or return your license first before deleting)
+/Library/Application Support/PACE Anti-Piracy
+~/Library/Caches/com.unity3d.*
+~/Library/Logs/Unity
+~/Library/Preferences/Unity
+~/Library/Preferences/com.unity3d.*
+~/Library/Preferences/com.OverTheEdge.BugReporter.plist
+~/Library/Preferences/dk.Otee.*
+
 
