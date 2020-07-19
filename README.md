@@ -100,13 +100,16 @@ Or, if you don't want/need a background service you can just run:
 
 ## macOS下日常使用的以及Xcode与iOS模拟器下的常用快捷键
 
-1. 打印：shift+option+k
-1. 在Finder中跳转到任一目录：cmd+shift+G
-1. Safari与Xcode中直接放大/缩小字体：cmd与 **=** 一起按 / cmd与 **-** 一起按
-1. 将选中的文字段落向右/向左缩进一个tab：cmd+] / cmd+[
-1. 对选中的代码添加注释屏蔽/取消注释屏蔽：cmd+/  在含有注释的情况下则取消注释屏蔽
-1. Xcode中关闭当前编辑的文件：control+command+w
-1. 模拟器中模拟点击Home键：cmd+shift+H
+- 打印：shift+option+k
+- 在Finder中跳转到任一目录：cmd+shift+G
+- Safari与Xcode中直接放大/缩小字体：cmd与 **=** 一起按 / cmd与 **-** 一起按
+- 将选中的文字段落向右/向左缩进一个tab：cmd+] / cmd+[
+- 对选中的代码添加注释屏蔽/取消注释屏蔽：cmd+/  在含有注释的情况下则取消注释屏蔽
+- Xcode中关闭当前编辑的文件：control+command+w
+- 模拟器中模拟点击Home键：cmd+shift+H
+- iPad Pro切换应用：command + tab
+- iPad Pro切换输入法：control + 空格，或语言键
+- iPad Pro退出到主屏幕：command + shift + H
 
 <br />
 
