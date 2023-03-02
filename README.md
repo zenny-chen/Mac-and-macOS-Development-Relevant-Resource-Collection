@@ -70,6 +70,7 @@ arch -arm64 brew install cmake
 arch -arm64 brew upgrade cmake
 ```
 - macOS安装OpenGL库：`brew install freeglut`
+- macOS下使用 **GLUT** 库，只需要在 **Build Phases** 项的 **Link Binary with Libraries** 中添加 **`GLUT.framework`**。不需要再额外动用其他库。在使用时，直接包含：**`#include <GLUT/glut.h>`**。
 - meson被默认安装在 `~/Library/Python/3.x/bin/`目录下。
 - macOS上安装Python3与Python3-Pip：首先安装HomeBrew，然后：
 ```bash
