@@ -5,22 +5,30 @@ Mac与macOS开发相关技术文集
 
 ## 技术网站
 
-1. [Mac如何恢复出厂设置](http://zhinan.sogou.com/guide/detail/?id=1610048493)
-1. [macOS上安装MySQL](https://discussions.apple.com/docs/DOC-3082)
-1. [Mac中如何设置三指拖拽 macOS Lion 如何单指双击拖拽](http://www.anystandards.com/archives/49079.html)
-1. [揭秘苹果耗时半年修复的OS X漏洞](http://geek.csdn.net/news/detail/30401)
-1. [黑Mach-O，符号动态绑定](https://github.com/facebook/fishhook)
-1. [Alternative of CADisplayLink for macOS](https://stackoverflow.com/questions/14158743/alternative-of-cadisplaylink-for-mac-os-x)
-1. [macOS开发 -- 通过访问Camera，实时获取图片](https://blog.csdn.net/heroguo_jp/article/details/79500654)
-1. [NSImage 存储为jpg或png文件的方法](https://blog.csdn.net/yuanya/article/details/25510515)
-1.  [macOS 开发：NSScrollView 学习笔记](https://segmentfault.com/a/1190000012069895)
-1. [macOS中如何获取当前运行程序的路径](https://www.cnblogs.com/zenny-chen/p/3290653.html)
-1. [在macOS上安装Homebrew](https://brew.sh)（用brew更新软件包：`brew upgrade <package>`）
-1. 在macOS上安装命令行编译工具的简单命令：`xcode-select --install`
-1. [MLClassifier increase maxIterations in CreateML](https://forums.developer.apple.com/thread/104668)
-1. [Xcode内存泄漏问题调试解决](https://my.oschina.net/u/2483082/blog/755130)
-1. [Mac中的Automator小机器人可以为你做些什么](https://www.toutiao.com/i6484230280306491918/)
-1. [uninstalling Unity3D on Mac](https://forum.unity.com/threads/uninstalling-unity-on-mac.395154/)
+- [Mac如何恢复出厂设置](http://zhinan.sogou.com/guide/detail/?id=1610048493)
+- [macOS上安装MySQL](https://discussions.apple.com/docs/DOC-3082)
+- [Mac中如何设置三指拖拽 macOS Lion 如何单指双击拖拽](http://www.anystandards.com/archives/49079.html)
+- [揭秘苹果耗时半年修复的OS X漏洞](http://geek.csdn.net/news/detail/30401)
+- [黑Mach-O，符号动态绑定](https://github.com/facebook/fishhook)
+- [Alternative of CADisplayLink for macOS](https://stackoverflow.com/questions/14158743/alternative-of-cadisplaylink-for-mac-os-x)
+- [macOS开发 -- 通过访问Camera，实时获取图片](https://blog.csdn.net/heroguo_jp/article/details/79500654)
+- [NSImage 存储为jpg或png文件的方法](https://blog.csdn.net/yuanya/article/details/25510515)
+- [macOS 开发：NSScrollView 学习笔记](https://segmentfault.com/a/1190000012069895)
+- [macOS中如何获取当前运行程序的路径](https://www.cnblogs.com/zenny-chen/p/3290653.html)
+- [在macOS上安装Homebrew](https://brew.sh)（用brew更新软件包：`brew upgrade <package>`）
+- Installing cmake with home-brew:
+```bash
+# Install
+arch -arm64 brew install cmake
+
+# Upgrade
+arch -arm64 brew upgrade cmake
+```
+- 在macOS上安装命令行编译工具的简单命令：`xcode-select --install`
+- [MLClassifier increase maxIterations in CreateML](https://forums.developer.apple.com/thread/104668)
+- [Xcode内存泄漏问题调试解决](https://my.oschina.net/u/2483082/blog/755130)
+- [Mac中的Automator小机器人可以为你做些什么](https://www.toutiao.com/i6484230280306491918/)
+- [uninstalling Unity3D on Mac](https://forum.unity.com/threads/uninstalling-unity-on-mac.395154/)
 
 <br />
 
