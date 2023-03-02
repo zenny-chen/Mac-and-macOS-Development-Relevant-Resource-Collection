@@ -24,6 +24,7 @@ arch -arm64 brew install cmake
 # Upgrade
 arch -arm64 brew upgrade cmake
 ```
+- macOS安装OpenGL库：`brew install glfw`
 - 在macOS上安装命令行编译工具的简单命令：`xcode-select --install`
 - [MLClassifier increase maxIterations in CreateML](https://forums.developer.apple.com/thread/104668)
 - [Xcode内存泄漏问题调试解决](https://my.oschina.net/u/2483082/blog/755130)
