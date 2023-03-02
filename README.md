@@ -16,16 +16,6 @@ Mac与macOS开发相关技术文集
 - [macOS 开发：NSScrollView 学习笔记](https://segmentfault.com/a/1190000012069895)
 - [macOS中如何获取当前运行程序的路径](https://www.cnblogs.com/zenny-chen/p/3290653.html)
 - [在macOS上安装Homebrew](https://brew.sh)（用brew更新软件包：`brew upgrade <package>`）
-- Installing cmake with home-brew:
-```bash
-# Install
-arch -arm64 brew install cmake
-
-# Upgrade
-arch -arm64 brew upgrade cmake
-```
-- macOS安装OpenGL库：`brew install freeglut`
-- 在macOS上安装命令行编译工具的简单命令：`xcode-select --install`
 - [MLClassifier increase maxIterations in CreateML](https://forums.developer.apple.com/thread/104668)
 - [Xcode内存泄漏问题调试解决](https://my.oschina.net/u/2483082/blog/755130)
 - [Mac中的Automator小机器人可以为你做些什么](https://www.toutiao.com/i6484230280306491918/)
@@ -61,20 +51,27 @@ arch -arm64 brew upgrade cmake
 
 ## Mac下的一些小技巧
 
-1. macOS下显示用户主目录下的Library目录：`chflags nohidden ~/Library/`
-1. macOS下的App所产生的文件一般会存放在 `~/Library/Containers/` 目录下，然后会以“com.company.appname”作为目录。App被删除后，该文件夹不会被删除，因此需要我们手工去删除。
-1. 取消QQ通知声音。首先进入“系统偏好设置”，然后进入“通知”，在左边栏找到QQ，然后选中后将“播放通知的声音”给取消勾选即可。
-1. [如何解决macOS文本编辑等应用为何会自动转换引号](https://www.zhihu.com/question/35110457)
-1. [教您如何远程访问您的Macbook](https://www.toutiao.com/a6636314785552007688)
-1. 在macOS上安装ICCUC库：`brew install icu4c`。
-1. 在macOS上安装swig库：`brew install swig`。
-1. 在macOS上安装pkg-config：`brew install pkg-config`。
-1. 在macOS上安装node.js（npm）：`brew install node`。
-1. macOS上安装glib：`brew install glib`。glib默认安装在`/usr/local/Cellar/glib/<版本号>`。需要包含的头文件路径有：`/usr/local/Cellar/glib/2.58.1/include/glib-2.0`，`/usr/local/Cellar/glib/2.58.1/lib/glib-2.0/include`。需要包含的库文件路径：`/usr/local/Cellar/glib/2.58.1/lib`。如果仅仅只要glib的相关函数，则只要用`-lglib-2.0`进行连接即可。
-1. 在macOS上要导出某些编译时所需要的符号：`export XXX_LIBS=xxxx`
-1. 在macOS上导出动态库路径：`export DYLD_LIBRARY_PATH=xxxx`
-1. meson被默认安装在`~/Library/Python/3.x/bin/`目录下。
-1. macOS上安装Python3与Python3-Pip：首先安装HomeBrew，然后：
+- macOS下显示用户主目录下的Library目录：`chflags nohidden ~/Library/`
+- macOS下的App所产生的文件一般会存放在 `~/Library/Containers/` 目录下，然后会以“com.company.appname”作为目录。App被删除后，该文件夹不会被删除，因此需要我们手工去删除。
+- 取消QQ通知声音。首先进入“系统偏好设置”，然后进入“通知”，在左边栏找到QQ，然后选中后将“播放通知的声音”给取消勾选即可。
+- [如何解决macOS文本编辑等应用为何会自动转换引号](https://www.zhihu.com/question/35110457)
+- [教您如何远程访问您的Macbook](https://www.toutiao.com/a6636314785552007688)
+- 在macOS上安装ICCUC库：`brew install icu4c`。
+- 在macOS上安装swig库：`brew install swig`。
+- 在macOS上安装pkg-config：`brew install pkg-config`。
+- 在macOS上安装node.js（npm）：`brew install node`。
+- macOS上安装glib：`brew install glib`。glib默认安装在`/usr/local/Cellar/glib/<版本号>`。需要包含的头文件路径有：`/usr/local/Cellar/glib/2.58.1/include/glib-2.0`，`/usr/local/Cellar/glib/2.58.1/lib/glib-2.0/include`。需要包含的库文件路径：`/usr/local/Cellar/glib/2.58.1/lib`。如果仅仅只要glib的相关函数，则只要用`-lglib-2.0`进行连接即可。
+- Installing cmake with home-brew:
+```bash
+# Install
+arch -arm64 brew install cmake
+
+# Upgrade
+arch -arm64 brew upgrade cmake
+```
+- macOS安装OpenGL库：`brew install freeglut`
+- meson被默认安装在 `~/Library/Python/3.x/bin/`目录下。
+- macOS上安装Python3与Python3-Pip：首先安装HomeBrew，然后：
 ```bash
 brew install python3
 curl https://bootstrap.pypa.io/get-pip.py | python3
@@ -85,6 +82,9 @@ sudo easy_install pip
 # 如果在当前环境下同时有Python 3的pip，也有Python 2.7的pip，
 # 那么使用 pip 默认表示Python 2.7下的；使用 pip3 则表示Python 3下的
 ```
+- 在macOS上安装命令行编译工具的简单命令：`xcode-select --install`
+- 在macOS上要导出某些编译时所需要的符号：`export XXX_LIBS=xxxx`
+- 在macOS上导出动态库路径：`export DYLD_LIBRARY_PATH=xxxx`
 
 <br />
 
