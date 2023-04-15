@@ -15,6 +15,7 @@ Mac与macOS开发相关技术文集
 - [NSImage 存储为jpg或png文件的方法](https://blog.csdn.net/yuanya/article/details/25510515)
 - [macOS 开发：NSScrollView 学习笔记](https://segmentfault.com/a/1190000012069895)
 - [macOS中如何获取当前运行程序的路径](https://www.cnblogs.com/zenny-chen/p/3290653.html)
+- [【mac】MacOS设置环境变量path](https://blog.csdn.net/qq_43331089/article/details/126698577)
 - [在macOS上安装Homebrew](https://brew.sh)（用brew更新软件包：`brew upgrade <package>`）
 - [MLClassifier increase maxIterations in CreateML](https://forums.developer.apple.com/thread/104668)
 - [Xcode内存泄漏问题调试解决](https://my.oschina.net/u/2483082/blog/755130)
@@ -39,13 +40,13 @@ Mac与macOS开发相关技术文集
 
 点击Xcode工程文件，然后点击**Capabilities**菜单栏，勾选上**App Sandbox**下面的Network的两个选项，如下图所示。
 
-![1.png](https://github.com/zenny-chen/Mac-and-macOS-Development-Relevant-Resource-Collection/blob/master/1.png)
+![1.png](1.png)
 
 <br />
 
 如果要让自己的App能读写用户文件系统，那么需要在**App Sandbox**下面的**File Access**下面的文件类型中都使用***read/write***访问权限，如下图所示。
 
-![2.png](https://github.com/zenny-chen/Mac-and-macOS-Development-Relevant-Resource-Collection/blob/master/2.png)
+![2.png](2.png)
 
 <br />
 
@@ -129,11 +130,11 @@ Or, if you don't want/need a background service you can just run:
 
 首先，我们打开“**系统偏好设置**”，然后点击“**安全性与隐私**”，如下图所示。
 
-![3.png](https://github.com/zenny-chen/Mac-and-macOS-Development-Relevant-Resource-Collection/blob/master/3.png)
+![3.png](3.png)
 
 然后，我们滑动左侧栏，找到“**开发者工具**”，随后点击左下角的锁状🔒按钮以允许编辑该选项。最后，我们勾选上中间栏的“**终端**”即大功告成，如下图所示。
 
-![4.png](https://github.com/zenny-chen/Mac-and-macOS-Development-Relevant-Resource-Collection/blob/master/4.png)
+![4.png](4.png)
 
 设置完之后，如果此时您开着控制台应用，则系统会默认将它重启，重启完之后，设置就生效了。
 
