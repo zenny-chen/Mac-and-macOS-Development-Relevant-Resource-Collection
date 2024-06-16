@@ -21,6 +21,7 @@ Mac与macOS开发相关技术文集
 - [Xcode内存泄漏问题调试解决](https://my.oschina.net/u/2483082/blog/755130)
 - [Mac中的Automator小机器人可以为你做些什么](https://www.toutiao.com/i6484230280306491918/)
 - [uninstalling Unity3D on Mac](https://forum.unity.com/threads/uninstalling-unity-on-mac.395154/)
+- macOS 支持 **Sans Mono** 等宽字体；而 macOS 与 iOS 均支持 DejaVu Sans Mono字体的改进版——Menlo，它是从OS X 10.6开始被引入作为系统字体的。 
 
 <br />
 
