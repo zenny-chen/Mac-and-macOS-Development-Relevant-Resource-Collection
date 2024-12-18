@@ -63,6 +63,17 @@ Mac与macOS开发相关技术文集
 - 在macOS上安装pkg-config：`brew install pkg-config`。
 - 在macOS上安装node.js（npm）：`brew install node`。
 - macOS上安装glib：`brew install glib`。glib默认安装在`/usr/local/Cellar/glib/<版本号>`。需要包含的头文件路径有：`/usr/local/Cellar/glib/2.58.1/include/glib-2.0`，`/usr/local/Cellar/glib/2.58.1/lib/glib-2.0/include`。需要包含的库文件路径：`/usr/local/Cellar/glib/2.58.1/lib`。如果仅仅只要glib的相关函数，则只要用`-lglib-2.0`进行连接即可。
+- 安装 makefile 环境必要的相关工具：
+```bash
+# Install autoconf
+brew install autoconf
+
+#Install automake
+brew install automake
+
+#Install M4
+brew install m4
+``` 
 - Installing cmake with home-brew:
 ```bash
 # Install
