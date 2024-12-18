@@ -68,11 +68,14 @@ Mac与macOS开发相关技术文集
 # Install autoconf
 brew install autoconf
 
-#Install automake
+# Install automake
 brew install automake
 
-#Install M4
+# Install M4
 brew install m4
+
+# Install libtool
+brew install libtool
 ``` 
 - Installing cmake with home-brew:
 ```bash
