@@ -85,6 +85,7 @@ arch -arm64 brew install cmake
 # Upgrade
 arch -arm64 brew upgrade cmake
 ```
+- macOS 安装 **ip** 工具，使得可以使用 **`ip addr show`**、**`ip maddr show`** 等命令：**`brew install iproute2mac`**。
 - macOS安装OpenGL库：`brew install freeglut`
 - macOS下使用 **GLUT** 库，只需要在 **Build Phases** 项的 **Link Binary with Libraries** 中添加 **`GLUT.framework`**。不需要再额外动用其他库。在使用时，直接包含：**`#include <GLUT/glut.h>`**。
 - meson被默认安装在 `~/Library/Python/3.x/bin/`目录下。
